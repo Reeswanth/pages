@@ -1,0 +1,116 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 50px 0;
+}
+
+/* Container for the form */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f8f9fa;  /* Light background as per provided reference */
+    padding: 30px;
+    border-radius: 1rem;  /* Rounded corners */
+    border: 2px solid #ddd;  /* Light border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Main class for padding */
+.main {
+    margin-top: 35px;
+}
+
+/* Form Heading */
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bolder;  /* Bolder heading */
+}
+
+/* Heading inside form */
+.contact-heading {
+    padding-top: 1rem;
+    font-weight: bolder;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-group input:focus, .form-group select:focus {
+    outline-color: #4CAF50;
+}
+
+/* Product Image for visual reference */
+.image {
+    height: auto;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+/* Paragraph styling */
+.para {
+    font-size: 18px;
+}
+
+/* Submit Button */
+.btn-submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #45a049;
+}
+
+/* Responsive Design */
+@media (max-width: 576px) {
+    .image {
+        max-height: 200px;
+    }
+
+    .contact-heading {
+        font-size: 1.5rem;
+    }
+
+    .form-group input, .form-group select {
+        font-size: 14px;
+    }
+}
+
+/* Text center alignment for small elements */
+.text-center {
+    text-align: center;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant E-commerce - Products</title>
+    <link rel="stylesheet" href="products.css">
+</head>
+<body>
+
+    <!-- Dropdown for sorting products -->
+    <div class="container text-center my-4 para">
+        <label for="product-sort">Sort by:</label>
+        <select id="product-sort" class="product-sort" onchange="sortProducts()">
+            <option value="all">All</option>
+            <option value="plants">Plants</option>
+            <option value="seeds">Seeds</option>
+            <option value="fertilizers">Fertilizers</option>
+        </select>
+    </div>
+
+    <!-- Products Container -->
+    <section class="products-container">
+        <!-- Plants -->
+        <div class="product-card plant">
+            <img src="plant1.jpg" alt="Fiddle Leaf Fig">
+            <div class="product-info">
+                <h5 class="product-title">Fiddle Leaf Fig</h5>
+                <p class="price">$50</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card plant">
+            <img src="plant2.jpg" alt="Snake Plant">
+            <div class="product-info">
+                <h5 class="product-title">Snake Plant</h5>
+                <p class="price">$50</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- Seeds -->
+        <div class="product-card seed">
+            <img src="seed1.jpg" alt="Tomato Seed">
+            <div class="product-info">
+                <h5 class="product-title">Tomato Seed</h5>
+                <p class="price">$10</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card seed">
+            <img src="seed2.jpg" alt="Basil Seed">
+            <div class="product-info">
+                <h5 class="product-title">Basil Seed</h5>
+                <p class="price">$8</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- Fertilizers -->
+        <div class="product-card fertilizer">
+            <img src="fertilizer1.jpg" alt="Plant Fertilizer">
+            <div class="product-info">
+                <h5 class="product-title">Plant Fertilizer</h5>
+                <p class="price">$15</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card fertilizer">
+            <img src="fertilizer2.jpg" alt="Organic Fertilizer">
+            <div class="product-info">
+                <h5 class="product-title">Organic Fertilizer</h5>
+                <p class="price">$20</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

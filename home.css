@@ -1,0 +1,49 @@
+/* General reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Background styling */
+body {
+    background-image: url('https://www.pexels.com/photo/close-up-photography-of-leaves-with-droplets-807598/')no repeat; /* Replace with actual image path */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* Hero Section */
+.hero {
+    height: 60vh;
+    background-color: grey;
+    width: 100%;
+    background-size: cover;
+    height:85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.hero h1 {
+    margin-bottom: 15px;
+}
+
+.hero p {
+    line-height: 1.8;
+}
+
+/* Footer */
+footer {
+    background-color: #fefcef;
+}
+
+.bg1{
+    background-color: rgb(165, 223, 165);
+}
+.bg2{
+    background-color: rgb(164, 199, 164);
+}

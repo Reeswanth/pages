@@ -1,0 +1,46 @@
+.main {
+  margin-top: 35px;
+}
+
+.c1 {
+  background-color: #f8f9fa;
+  border-style: solid;
+  border-radius: 1rem;
+  border-width: 2px;
+  border-color: #ddd;
+  font-family: "Roboto", sans-serif;
+}
+
+.image {
+  height: auto;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
+.contact-heading {
+  padding-top: 1rem;
+  font-weight: bolder;
+}
+
+.para {
+  font-size: 18px;
+}
+
+.form-control {
+  border-color: #ddd;
+  border-radius: 5px;
+}
+
+.btn {
+  border-radius: 5px;
+}
+
+@media (max-width: 576px) {
+  .image {
+      max-height: 200px;
+  }
+
+  .contact-heading {
+      font-size: 1.5rem;
+  }
+}
